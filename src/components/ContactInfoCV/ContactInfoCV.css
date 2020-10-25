@@ -1,0 +1,54 @@
+.contact-info-cv {
+  padding: 0 1rem;
+}
+
+.contact-info-cv li {
+  list-style: none;
+}
+
+.contact-info-cv a:hover {
+  transform: scale(1.2);
+  background-color: #0D267A;
+  color: rgb(204, 204, 255);
+}
+
+.contact-info-cv a {
+  background-color:  rgb(204, 204, 255);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+  color:#0D267A;
+  text-decoration: none;
+}
+
+.contact-details {
+  padding: 0 1rem 1rem 0;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.contact-info-cv .contact-me ul {
+  padding-bottom: 0.5rem;
+}
+
+
+@media (min-width: 768px) {
+  .contact-info-cv a {
+    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem 1rem;
+  }
+}

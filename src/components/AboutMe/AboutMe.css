@@ -1,0 +1,43 @@
+.text-container {
+  width: 90%;
+  margin: 0 auto;
+  color: rgb(204, 204, 255);
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.text-container p {
+  margin: 0.625rem 0;
+  font-size: 0.875rem;
+}
+
+.go-to-cv {
+  margin: 0.625rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(204, 204, 255);
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  margin-bottom: 1.5rem;
+}
+
+.go-to-cv:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+  .text-container p {
+    font-size: 1rem;
+  }
+
+  .go-to-cv {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-container p {
+    font-size: 1.125rem;
+    margin: 1rem 0;
+  }
+}

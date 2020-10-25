@@ -1,0 +1,67 @@
+.skills-cv {
+  padding: 0 1rem;
+}
+
+.skills-cv::after {
+  display: block;
+  content: "";
+  background-color: #0D267A;
+  height: 3px;
+  width: 80%;
+  margin: 0 auto;
+  margin: 1.5rem 0 0 auto;
+}
+
+.skills-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  text-align: end;
+  margin: 0 1rem;
+  color:  #0D267A;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill {
+  width: 40%;
+  height: 8rem;
+  border: solid 0.25rem #444349;
+  border-radius: 0.25rem;
+  margin: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+}
+
+.skill:hover {
+  transform: scale(0.9);
+}
+
+.skill i {
+  color: #0D267A;
+}
+
+.skill p {
+  color: #444349;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+@media (min-width: 480px) {
+  .skill {
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .skill {
+    width: 20%;
+  }
+}

@@ -1,0 +1,46 @@
+.contact-me ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me li {
+  list-style: none;
+}
+
+.contact-me a:hover {
+  transform: scale(1.2);
+  background-color: rgba(0, 0, 102, .8);
+  color: rgb(204, 204, 255);
+}
+
+.contact-me a {
+  background-color:  rgb(204, 204, 255);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+  color: rgba(0, 0, 102, .8);
+  text-decoration: none;
+}
+
+@media (min-width: 480px) {
+  .contact-me a {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-me a {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+  }
+}

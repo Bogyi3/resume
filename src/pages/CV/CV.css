@@ -1,0 +1,46 @@
+.background-cv {
+  background-color:#444349;
+  min-height: 100vh;
+}
+
+.cv-form {
+  width: 100vw;
+  color:#444349;
+  margin: 0 auto;
+  font-family: 'Merriweather', serif;
+  background: url(https://i.imgur.com/RyC42h5.png) repeat center;
+  line-height: 1.6;
+}
+
+.go-to-main {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #0D267A;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  padding: 0.5rem 0.5rem 1.5rem 0.5rem;
+}
+
+.go-to-main:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 480px) {
+
+  .background-cv {
+    padding: 2.5rem;
+  }
+
+ .cv-form {
+  width: 80vw;
+  padding: 1rem;
+ }
+}
+
+@media (min-width: 768px) {
+
+  .cv-form {
+   max-width: 800px;
+   padding: 1rem 3rem;
+  }
+}

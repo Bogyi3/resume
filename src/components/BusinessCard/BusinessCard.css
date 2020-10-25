@@ -1,0 +1,44 @@
+.card {
+  width:90%;
+  margin:0 auto;
+  color: rgb(204, 204, 255);
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: .05em;
+}
+
+.profile {
+  width: 7.5rem;
+  margin-top: -3.75rem;
+  border-radius: 50%;
+  filter: grayscale(30%);
+  transition: all 0.5s ease-in-out;
+  padding: 1px;
+  background-color:rgba(0, 0, 102, .6);
+}
+
+.profile:hover {
+  transform: scale(1.2);
+  filter:grayscale(0%);
+}
+
+.name {
+  margin:0.625rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.profession {
+  font-size: 1.125rem;
+  margin-bottom:1.25rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 1024px) {
+  .name {
+    font-size: 1.75rem;
+  }
+  .profession {
+    font-size: 1.25rem;
+  }
+}
