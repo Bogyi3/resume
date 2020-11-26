@@ -23,7 +23,7 @@ function Languages() {
 
         <p className='language'>Turkish</p>
         <div class='max-level'>
-          <div className='my-level' style={{ width: '26%' }}>26%</div>
+          <div className='my-level' style={{ width: '21%' }}>21%</div>
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ function EducationCV() {
           <div className='ed-date'>2020</div>
           <div className='ed-studies'>Full Stack Developer Course</div>
           <div className='ed-institution'>Green Fox Academy</div>
-          <div className='ed-info'>- JavaScript, TypeScript, HTML, CSS, React, Redux, MySQL, Git, Github, Express.js, JWT, Jest...</div>
+          <div className='ed-info'>- JavaScript, TypeScript, HTML, CSS, React, Redux, MySQL, Git, Github, Material-UI...</div>
         </li>
         <li>
           <div className='ed-date'>2015-2019</div>

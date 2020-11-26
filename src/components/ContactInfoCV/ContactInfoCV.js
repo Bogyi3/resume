@@ -9,7 +9,7 @@ function ContactInfoCV() {
       <ul className='contact-details'>
         <li>
           <a><i class="fas fa-map-marker-alt"></i></a>
-          <p>Milan, Italy</p>
+          <p>Budapest/Eger, Hungary || Milan, Italy</p>
         </li>
         <li>
           <a href='mailto:n.boglar3@gmailcom?'><i className='far fa-envelope'></i></a>
